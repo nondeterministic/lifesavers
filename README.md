@@ -27,11 +27,11 @@ Find and replace Unicode characters on the command line:
 
 Unzip a flat ZIP archive into a subdirectory of a given name
 
-   7z x '*.zip' -o'*'
+    7z x '*.zip' -o'*'
    
 or
    
-   unzip -d newfolder/ zipfile.zip
+    unzip -d newfolder/ zipfile.zip
 
 ## NVIDIA drivers
 
