@@ -24,7 +24,15 @@ Replace everything in all files of a specific pattern:
 Find and replace Unicode characters on the command line:
 
     LC_CTYPE=C sed 's/\x9c/ae/g' $filename > $outfilename
-	
+
+Unzip a flat ZIP archive into a subdirectory of a given name
+
+   7z x '*.zip' -o'*'
+   
+or
+   
+   unzip -d newfolder/ zipfile.zip
+
 ## NVIDIA drivers
 
 Oftentimes, the proprietary NVIDIA drivers fail to load, and oftentimes
